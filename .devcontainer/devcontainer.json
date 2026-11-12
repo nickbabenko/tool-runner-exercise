@@ -1,0 +1,11 @@
+{
+  "name": "tool-runner-exercise",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"],
+      "settings": { "workbench.startupEditor": "readme" }
+    },
+    "codespaces": { "openFiles": ["README.md", "tool_runner.py"] }
+  }
+}
